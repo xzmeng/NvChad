@@ -89,6 +89,11 @@ local default_plugins = {
 
   -- git stuff
   {
+    "tpope/vim-fugitive",
+    lazy = false,
+  },
+
+  {
     "lewis6991/gitsigns.nvim",
     ft = { "gitcommit", "diff" },
     init = function()
